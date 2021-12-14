@@ -6,7 +6,7 @@
     "variables": {},
     "resources": [
   {
-      "name": "logicAppHelloworldLogicappsTemplate",
+      "name": "LogicAppHelloworldLogicappsTemplate",
       "type": "Microsoft.Logic/workflows",
       "apiVersion": "2017-07-01",
       "location": "[resourceGroup().location]",
