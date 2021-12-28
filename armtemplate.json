@@ -30,7 +30,7 @@
                       "type": "Response",
                       "kind": "http",
                       "inputs": {
-                          "Body": "This is my first function",
+                          "Body": "Logic app using ARM template",
                           "statuscode": 200
                       }
                       
