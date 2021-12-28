@@ -2,22 +2,12 @@
     "definition": {
         "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
         "actions": {
-            "For_each": {
-                "actions": {},
-                "foreach": "@triggerBody()",
-                "runAfter": {},
-                "type": "Foreach"
-            },
             "Response": {
                 "inputs": {
                     "statusCode": 200
                 },
                 "kind": "http",
-                "runAfter": {
-                    "For_each": [
-                        "Succeeded"
-                    ]
-                },
+                "runAfter": {},
                 "type": "Response"
             }
         },
